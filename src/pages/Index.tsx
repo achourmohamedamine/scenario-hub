@@ -54,18 +54,7 @@ const Index = () => {
             </CardContent>
           </Card>
 
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Total Savings</CardTitle>
-              <div className="p-2 rounded-lg bg-accent">
-                <TrendingUp className="h-4 w-4 text-accent-foreground" />
-              </div>
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">$342</div>
-              <p className="text-xs text-muted-foreground mt-1">This month</p>
-            </CardContent>
-          </Card>
+         
         </div>
 
         {/* Quick Actions */}
