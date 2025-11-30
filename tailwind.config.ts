@@ -57,6 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        solar: {
+          DEFAULT: "hsl(var(--solar))",
+          light: "hsl(var(--solar-light))",
+        },
+        battery: {
+          DEFAULT: "hsl(var(--battery))",
+          light: "hsl(var(--battery-light))",
+        },
+        grid: {
+          DEFAULT: "hsl(var(--grid))",
+          light: "hsl(var(--grid-light))",
+        },
+      },
+      transitionTimingFunction: {
+        smooth: "cubic-bezier(0.4, 0, 0.2, 1)",
       },
       borderRadius: {
         lg: "var(--radius)",
